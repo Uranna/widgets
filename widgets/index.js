@@ -1,3 +1,4 @@
-export { CurrentTime } from './CurrentTime';
-export { Image } from './Image';
-export { Valute } from './Valute';
+export { default as CurrentTime } from './CurrentTime';
+export { default as Image } from './Image';
+export { default as Valute } from './Valute';
+
