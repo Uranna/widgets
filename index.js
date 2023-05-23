@@ -5,7 +5,7 @@ class CreateWidgets {
 	CONTAINER = '';
 
 	MODAL = '#w-modal';
-	MODAL_CONTENT = '#w-modal__content'
+	MODAL_CONTENT = '#w-modal__content';
 
 	ROW = 3;
 	COLUMNS = 0;
@@ -108,7 +108,7 @@ class CreateWidgets {
 		button.innerText = title;
 		button.setAttribute('role', 'add-widget');
 		button.dataset.widget = widget;
-		
+
 		container.append(button);
 	};
 
@@ -122,7 +122,7 @@ class CreateWidgets {
 				container: this.CONTAINER,
 				box: '.w-cell',
 				modal: this.MODAL,
-				modalContent: this.MODAL_CONTENT
+				modalContent: this.MODAL_CONTENT,
 			}).createWidget();
 		}
 
